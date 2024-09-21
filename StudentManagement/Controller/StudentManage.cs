@@ -270,7 +270,7 @@ namespace StudentManagement.Controller
 
         public void SaveToFile()
         {
-            string folderPath = @"D:\FPT POLYTECHNIC\C#\BaiTap\StudentManagement\StudentManagement\Database";
+            string folderPath = @"D:\FPT POLYTECHNIC\C#\StudentManagement\Database";
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath); // Tạo thư mục nếu chưa tồn tại
@@ -298,7 +298,7 @@ namespace StudentManagement.Controller
 
         public void ReadFromFile()
         {
-            string folderPath = @"D:\FPT POLYTECHNIC\C#\BaiTap\StudentManagement\StudentManagement\Database";
+            string folderPath = @"D:\FPT POLYTECHNIC\C#\StudentManagement\StudentManagement";
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath); // Tạo thư mục nếu chưa tồn tại
