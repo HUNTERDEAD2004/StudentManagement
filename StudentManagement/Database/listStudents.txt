@@ -1,0 +1,2 @@
+name,dob,address,height,weight,studentId,school,yearStarted,gpa,apr
+hanh, 31/10/2004, haloi, 178, 80, polytech01, poly, 2018, 7.5, GOOD
